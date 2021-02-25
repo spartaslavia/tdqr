@@ -1,0 +1,8 @@
+<div class="spinner" *ngIf="todoService.loading$.value">
+  <mat-spinner></mat-spinner>
+</div>
+<div class="home-container">
+  <h1>{{ "TITLE_H1" | translate }}</h1>
+
+  <tdqr-todo-list></tdqr-todo-list>
+</div>

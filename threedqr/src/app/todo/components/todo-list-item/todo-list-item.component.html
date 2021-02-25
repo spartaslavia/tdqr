@@ -1,0 +1,5 @@
+<div class="todo-list-item-container" *ngIf="item" (click)="onClick()">
+    <div class="item-tag" [class]="item.type">{{item.tag}}</div>
+    <div class="item-title">{{item.title}}</div>
+    <div class="item-date">{{item.dateTime}}</div>
+</div>

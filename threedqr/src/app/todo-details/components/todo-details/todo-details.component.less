@@ -1,0 +1,57 @@
+.todo-details-container {
+  padding: 1em;
+  .todo-list-box {
+    margin: 1em;
+    box-shadow: 0.2em 0.2em 0.5em #ccc;
+    background-color: #fff;
+    padding: 2em 4em;
+    h2 {
+      font-size: 2.5em;
+      font-weight: 500;
+    }
+    .todo-details {
+      border-top: 1px solid #ccc;
+      padding-top: 2.5em;
+      padding-bottom: 2.5em;
+
+      .sub-title {
+        display: flex;
+        align-items: center;
+        color: #ccc;
+        font-size: 1.5em;
+        font-weight: 500;
+
+        .material-icons {
+          width: 1em;
+          color: red;
+          margin-right: 0.5em;
+        }
+      }
+      .text {
+        padding-top: 1em;
+        padding-left: 2.5em;
+        font-size: 1.3em;
+        font-weight: 500;
+      }
+    }
+    .tags {
+      .text {
+        display: flex;
+        align-items: center;
+        padding-left: 2em;
+        .material-icons {
+          color: red;
+        }
+      }
+    }
+    .btn {
+      width: 100%;
+      text-align: center;
+      button {
+        background-color: red;
+        color: #fff;
+        width: 10em;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<div class="todo-details-container">
+  <div class="todo-list-box">
+    <h2>{{ item.title }}</h2>
+    <div class="todo-details description">
+      <div class="sub-title">
+        <mat-icon>description</mat-icon>
+        <span>{{ "DESCRIPTION" | translate }}</span>
+      </div>
+      <div class="text">
+        {{ item.description }}
+      </div>
+    </div>
+    <div class="todo-details projects">
+      <div class="sub-title">
+        <mat-icon>folder</mat-icon>
+        {{ "PROJECTS" | translate }}
+      </div>
+      <div class="text">{{ item.projects }}</div>
+    </div>
+    <div class="todo-details tags">
+      <div class="sub-title">
+        <mat-icon>local_offer</mat-icon>
+        {{ "TAGS" | translate }}
+      </div>
+      <div class="text"><mat-icon>add</mat-icon><span>{{ item.tags }}</span></div>
+    </div>
+    <div class="btn">
+      <button mat-button (click)="onClick()">{{"FINISH" | translate }}</button>
+    </div>
+  </div>
+</div>
