@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c8380071-e2d6-4e2b-a482-327d1767dec1/resourceGroups/tdqr/providers/Microsoft.Web/sites/tdqr",
+    "appService.deploySubpath": "dist\\threedqr"
+}
